@@ -55,6 +55,7 @@ import fitnessProjectImage from '../assets/fitness-project.png';
 import localFoodLoversImage from '../assets/local-food-lovers.png';
 import nextJsTypescriptImage from '../assets/nextjs-typescript.png';
 import mernStackImage from '../assets/mern-stack.png';
+import webDevSkillsImage from '../assets/web-dev-skills.png';
 
 export const projectsData = [
     {
@@ -151,6 +152,15 @@ export const educationData = [
 ];
 
 export const articlesData = [
+    {
+        title: "ওয়েব ডেভেলপমেন্ট: বর্তমান যুগের অপরিহার্য দক্ষতা",
+        date: "Dec 05, 2025",
+        readTime: "6 min read",
+        preview: "বর্তমান যুগে ওয়েব ডেভেলপমেন্ট একটি অত্যন্ত চাহিদাসম্পন্ন পেশা। জানুন কেন এটি শিখবেন এবং কীভাবে শুরু করবেন।",
+        image: webDevSkillsImage,
+        tags: ["Web Development", "Career", "Bangla"],
+        link: "https://medium.com/@bkq05401/%E0%A6%93%E0%A7%9F%E0%A7%87%E0%A6%AC-%E0%A6%A1%E0%A7%87%E0%A6%AD%E0%A7%87%E0%A6%B2%E0%A6%AA%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F-%E0%A6%AC%E0%A6%B0%E0%A7%8D%E0%A6%A4%E0%A6%AE%E0%A6%BE%E0%A6%A8-%E0%A6%AF%E0%A7%81%E0%A6%97%E0%A7%87%E0%A6%B0-%E0%A6%85%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AF-%E0%A6%A6%E0%A6%95%E0%A7%8D%E0%A6%B7%E0%A6%A4%E0%A6%BE-fe1462324958"
+    },
     {
         title: "Why Choose the MERN Stack for Your Next Web Project?",
         date: "June 3, 2025",
