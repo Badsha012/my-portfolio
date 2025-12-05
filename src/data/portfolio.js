@@ -53,6 +53,8 @@ import emergencyServiceImage from '../assets/emergency-service.png';
 import freshMartImage from '../assets/fresh-mart.png';
 import fitnessProjectImage from '../assets/fitness-project.png';
 import localFoodLoversImage from '../assets/local-food-lovers.png';
+import nextJsTypescriptImage from '../assets/nextjs-typescript.png';
+import mernStackImage from '../assets/mern-stack.png';
 
 export const projectsData = [
     {
@@ -153,25 +155,19 @@ export const articlesData = [
         title: "Why Choose the MERN Stack for Your Next Web Project?",
         date: "June 3, 2025",
         readTime: "10 min read",
-        preview: "The MERN stack is a popular web development framework that combines four powerful technologies: MongoDB, Express.js, React, and...",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCMi7tlfQqb56FDd1fmJrnkhzHXuDIB4FaniG4C6csZI4f-ZRQ8JLjurb4CrxXHpZpMZNrLH5ZPqXueHTB05udD7RNVg0RyyarNucRZ5Tp0JhNGQamcEpKuMiFWlRnBtv3dhThBeCivpvPtMGbSE94mGjeXGwh6LGpX_ggIVTLAzMtcDIv_DYwGWLQWjzo2fQJUIcHFbLtL2qEyAT39GZdxdDz28desaXp_PQJuqG_l57Kk7-s9Y8KMFwydLm4HQHuu_j80ai8TIRBJ",
-        tags: ["MERN Stack", "Web Development", "JavaScript"]
+        preview: "The MERN stack is a popular web development framework that combines four powerful technologies: MongoDB, Express.js, React, and Node.js. Learn why it's the best choice for your next project.",
+        image: mernStackImage,
+        tags: ["MERN Stack", "Web Development", "JavaScript"],
+        link: "https://medium.com/@badshasheikh034/why-choose-the-mern-stack-for-your-next-web-project-bangla-english-mixed-version-2c203ce07cc4?postPublishedType=initial"
     },
     {
         title: "Building Modern Web Apps: TypeScript and Next.js Together",
-        date: "May 15, 2025",
-        readTime: "8 min read",
-        preview: "In the ever-evolving landscape of web development, the tools and frameworks we choose can significantly impact our productivity...",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDQeTBScLgMMKHrPYhv8UtuFuGRAAuJAXqrrX9gN-vCDhpCmooKucrZbNOwRzdopTF0ZbkwbZD40ihnmsC1b6qiTsJUR0msnRGpGIlx4FwTuFGgNrPrNjdzVsVTxRGTankr4HtMTq5OcbgFecnm9f1zaYHpJZFmezL6u6ZStdT1Fu7RAsFYB2r8-4zs2cqM_ybWF68m_Wya7GlN5GBysWRB44fsDJ5nYApamHnruet1jodLybyLdEyC4BAehJNyVB2suscQDK6RWifn",
-        tags: ["TypeScript", "Next.js", "MERN Stack"]
-    },
-    {
-        title: "Getting Started with Mongoose.js: A Beginner's Guide",
-        date: "June 1, 2025",
-        readTime: "12 min read",
-        preview: "Mongoose.js is an Object Data Modeling (ODM) library for MongoDB and Node.js. It provides a straightforward way to interact with MongoDB...",
-        image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBbhSa7saA6QC06sTM5SnX7q6Hf22juIoCSe0C9uH3bYpgjI3PFVQZOyYq_rCGSRjIc9G862dmx_JkUJonwhWqJ-rbQ0Mq3n9Ehv5Md9j7pMmnH4PyziTv3SEQ7TLCrEpTThqFOekQd1LaGWpY87SCfytFY2LDLFxs3XhVyAJ1teh_q8ECrtPVi2Eda2loS2BDO_hJL4h9X12P3uz-neP5D3pE4TxIZTMQkUH6JwjANeMapzkf9TqtkznVjAMO8qvk2e8yj7aZ60U6w",
-        tags: ["MongooseJS", "MongoDB", "NodeJS"]
+        date: "Dec 05, 2025",
+        readTime: "5 min read",
+        preview: "Explore how TypeScript and Next.js combine to create robust, scalable, and high-performance web applications. Learn about the benefits of static typing, server-side rendering, and the latest features in the Next.js ecosystem.",
+        image: nextJsTypescriptImage,
+        tags: ["Next.js", "TypeScript", "Web Dev"],
+        link: "https://medium.com/@badshasheikh034/building-modern-web-apps-typescript-and-next-js-together-51455e603237?postPublishedType=initial"
     }
 ];
 

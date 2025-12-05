@@ -65,10 +65,15 @@ const Articles = () => {
                                         {/* Placeholder for author avatars or extra meta */}
                                     </div>
 
-                                    <button className="text-sm font-semibold text-white flex items-center gap-2 group/btn hover:text-purple-400 transition-colors">
+                                    <a
+                                        href={article.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="text-sm font-semibold text-white flex items-center gap-2 group/btn hover:text-purple-400 transition-colors"
+                                    >
                                         Read Article
                                         <span className="material-symbols-outlined text-lg transition-transform duration-300 group-hover/btn:translate-x-1">arrow_right_alt</span>
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </Card>
