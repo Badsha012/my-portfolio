@@ -24,7 +24,8 @@ const Education = () => {
                     {educationData.map((item, index) => (
                         <div key={index} className={`flex flex-col md:flex-row gap-8 items-center group ${index % 2 === 0 ? '' : 'md:flex-row-reverse'} animate-fade-in-up`} style={{ animationDelay: `${index * 200}ms` }}>
                             {/* Timeline Node */}
-                            <div className="absolute left-8 md:left-1/2 w-5 h-5 bg-[#0a0a0a] rounded-full border-4 border-purple-500 transform -translate-x-1/2 mt-8 z-10 shadow-[0_0_20px_rgba(168,85,247,0.6)] group-hover:scale-125 group-hover:bg-white group-hover:border-white transition-all duration-500"></div>
+                            <div className="absolute left-8 md:left-1/2 w-5 h-5 bg-[#0a0a0a] rounded-full border-4 border-purple-500 transform -translate-x-1/2 mt-8 z-10 shadow-[0_0_20px_rgba(168,85,247,0.6)] group-hover:scale-125 group-hover:bg-white group-hover:border-white transition-all duration-500 hidden md:block"></div>
+                            <div className="absolute left-4 md:hidden w-4 h-4 bg-[#0a0a0a] rounded-full border-2 border-purple-500 mt-8 z-10"></div>
 
                             {/* Card Wrapper */}
                             <div className={`w-full md:w-1/2 pl-16 md:pl-0 ${index % 2 === 0 ? 'md:pr-16 md:text-right' : 'md:pl-16'}`}>

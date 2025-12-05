@@ -110,7 +110,7 @@ const Hero = () => {
                 </div>
 
                 {/* Image/Visual */}
-                <div className="flex-1 relative w-full max-w-md animate-float hidden md:block perspective-1000">
+                <div className="flex-1 relative w-full max-w-md animate-float block perspective-1000 mt-10 md:mt-0">
                     <div className="relative z-10 group transform transition-transform duration-500 hover:rotate-y-12 hover:rotate-x-12">
                         <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-full blur opacity-30 group-hover:opacity-70 transition duration-1000 group-hover:duration-200 animate-pulse-slow"></div>
                         <div className="glass-card p-2 rounded-full relative overflow-hidden bg-[#151925] aspect-square flex items-center justify-center ring-2 ring-white/20 shadow-[0_0_50px_rgba(0,0,0,0.5)]">
