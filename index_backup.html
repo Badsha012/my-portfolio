@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Developer Portfolio Home</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<style>
+    .background-gradient {
+      background: radial-gradient(circle at 15% 15%, rgba(67, 56, 202, 0.3) 0%, transparent 40%),
+                  radial-gradient(circle at 85% 75%, rgba(124, 58, 237, 0.2) 0%, transparent 40%),
+                  #111827;
+    }
+    .text-gradient {
+      background: linear-gradient(to right, #8b5cf6, #3b82f6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+  </style>
+<script>
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            primary: "#8b5cf6",
+            "background-light": "#f3f4f6", // gray-100
+            "background-dark": "#111827", // gray-900
+          },
+          fontFamily: {
+            display: ["Poppins", "sans-serif"],
+          },
+          borderRadius: {
+            DEFAULT: "0.5rem",
+          },
+        },
+      },
+    };
+  </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="font-display bg-background-light dark:bg-background-dark">
+<div class="relative min-h-screen flex flex-col items-center justify-center p-4 overflow-hidden background-gradient">
+<header class="absolute top-0 left-0 right-0 p-4">
+<nav class="flex justify-between items-center">
+<a class="text-xl font-bold text-gray-800 dark:text-white" href="#">Rasel Ahmed</a>
+<button class="p-2">
+<span class="material-icons-outlined text-gray-800 dark:text-white">menu</span>
+</button>
+</nav>
+</header>
+<main class="flex-grow flex flex-col items-center justify-center text-center w-full px-4 pt-16 pb-8">
+<div class="mb-6 relative">
+<div class="absolute -inset-1 bg-gradient-to-r from-purple-600 to-blue-500 rounded-full blur-md opacity-75"></div>
+<img alt="Portrait of Rasel Ahmed" class="relative w-32 h-32 rounded-full border-4 border-gray-900 shadow-lg object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTvEReRybnrFAGN6cEBspiTkJDTCAW4RC7lkO3nCyNg08RF13aU6zy-_mezHI0_mkU0g1-iQvVomiQ0y6yfftVtUrVhBdRJAcfA_uO-IRm0QMbNm1mx7jAKoSWBBFIX04WvtwqQNHSh73SvZE3oGRaz5oMsMYEw-SB36Bex102wGPwvrqqAW_joOJeMFa3-dwCcHxNvUkwd_bc_kzJbTMD2qsUcFDR2n8sxgScd3OSaY5ByiXwBnS6R3A_mP7jF7vaCbJ0470Et74_"/>
+</div>
+<h1 class="text-4xl md:text-5xl font-bold mb-2 text-gradient">
+        Rasel Ahmed
+      </h1>
+<h2 class="text-xl text-gray-600 dark:text-gray-300 mb-2">MERN Stack Developer</h2>
+<div class="w-24 h-0.5 bg-gradient-to-r from-purple-500 to-blue-500 mx-auto mb-6"></div>
+<p class="text-gray-700 dark:text-gray-400 max-w-md mx-auto mb-8">
+        Crafting beautiful and functional web applications with a passion for clean code and user-centric design.
+      </p>
+<div class="w-full max-w-sm">
+<button class="w-full bg-primary text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:opacity-90 transition-opacity mb-4">
+          Get in Touch
+        </button>
+<button class="w-full bg-gray-700/50 dark:bg-gray-800/60 border border-gray-500 dark:border-gray-700 text-gray-300 dark:text-gray-200 font-semibold py-3 px-6 rounded-lg hover:bg-gray-600/50 dark:hover:bg-gray-700/60 transition-colors flex items-center justify-center gap-2">
+<span class="material-icons-outlined text-base">download</span>
+          Download Resume
+        </button>
+</div>
+<div class="flex space-x-6 mt-10">
+<a class="text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.285 2.866 7.913 6.838 9.173.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.03-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.378.203 2.398.1 2.65.64.7 1.028 1.595 1.028 2.688 0 3.848-2.338 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.578.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" fill-rule="evenodd"></path></svg>
+</a>
+<a class="text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M21.25 2H2.75C2.336 2 2 2.336 2 2.75v18.5C2 21.664 2.336 22 2.75 22h18.5c.414 0 .75-.336.75-.75V2.75c0-.414-.336-.75-.75-.75zM8.29 18.91H5.45V9.73h2.84v9.18zM6.87 8.5c-.97 0-1.76-.79-1.76-1.76s.79-1.76 1.76-1.76 1.76.79 1.76 1.76-.79 1.76-1.76 1.76zm12.04 10.41h-2.83v-4.56c0-1.09-.02-2.48-1.51-2.48-1.51 0-1.74 1.18-1.74 2.4v4.64h-2.83V9.73h2.72v1.24h.04c.38-.71 1.29-1.46 2.68-1.46 2.87 0 3.4 1.89 3.4 4.34v4.96z"></path></svg>
+</a>
+<a class="text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19.645 3.424A1.002 1.002 0 0018.57 3H5.43a1.002 1.002 0 00-.918.583L2.247 9.17a.5.5 0 00.435.743h1.378c.07.784.342 1.54.78 2.21l-1.396 4.188a.5.5 0 00.474.689h1.564c.261.64.63 1.228 1.09 1.748l-1.4 3.499a.5.5 0 00.485.673h5.71a.5.5 0 00.485-.673l-1.4-3.499c.46-.52.829-1.108 1.09-1.748h1.564a.5.5 0 00.474-.689l-1.396-4.188c.438-.67.71-1.426.78-2.21h1.378a.5.5 0 00.435-.743l-2.265-5.583a.997.997 0 00-.157-.163zM12 11.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"></path></svg>
+</a>
+</div>
+</main>
+</div>
+<section class="bg-background-light dark:bg-background-dark font-display">
+<div class="min-h-screen p-6 md:p-8 flex flex-col items-center">
+<div class="w-full max-w-md mx-auto">
+<div class="text-center mb-8">
+<h1 class="text-4xl font-bold text-slate-800 dark:text-white">About Me</h1>
+<div class="mt-2 h-1 w-24 bg-gradient-to-r from-cyan-400 to-primary mx-auto"></div>
+</div>
+<div class="flex flex-col items-center text-center">
+<img alt="Portrait of Rasel Ahmed" class="w-40 h-40 rounded-full object-cover shadow-lg border-4 border-white dark:border-gray-700 mb-6" src="https://lh3.googleusercontent.com/aida-public/AB6AXuChx6Ri-vwGpC--9BL0KrxnhDsUMJJ1YLbO5xVn6TkB9Sm0V8L0VpaDGt5MZUL1-3P-MuJ8muKAUMKX4P0PboVByPxrovR0K4_TYiyeW4gdxTqwow-rTOUME8uQ7SDsBMbehaoRqo8BdOWS78F0VfT8z6TjHte06Se-lVsQ6FSVhDiNDQ-8cQozDZEwEdfRKznbE7Da6kkqHUjthKE_ne8eEMEikSbj_o7HC47P8iYLJlAoS84eBF8aFFsKaVBOo3yis7rjMgvF4RVR"/>
+<h2 class="text-3xl font-bold text-slate-800 dark:text-white mb-2">
+          Hi, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-primary">Rasel Ahmed</span>
+</h2>
+<div class="space-y-4 text-slate-600 dark:text-slate-300 text-base leading-relaxed">
+<p>
+            I am a passionate MERN Stack Developer with expertise in building modern web applications. With a strong foundation in MongoDB, Express.js, React.js, and Node.js, I create scalable and efficient solutions that solve real-world problems.
+          </p>
+<p>
+            My journey in web development started with a curiosity about how websites work, which evolved into a deep passion for creating intuitive and responsive user interfaces. I enjoy the challenge of turning complex problems into simple, elegant solutions.
+          </p>
+<p>
+            When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through blog posts and tutorials.
+          </p>
+</div>
+<div class="mt-8 w-full">
+<h3 class="text-xl font-semibold text-slate-700 dark:text-slate-200 mb-4">My Skills</h3>
+<div class="flex flex-wrap justify-center gap-3">
+<span class="flex items-center bg-gray-200 dark:bg-gray-800 text-slate-700 dark:text-slate-300 text-sm font-medium px-4 py-2 rounded-full shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary mr-2"></span>
+                MongoDB
+              </span>
+<span class="flex items-center bg-gray-200 dark:bg-gray-800 text-slate-700 dark:text-slate-300 text-sm font-medium px-4 py-2 rounded-full shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary mr-2"></span>
+                Express.js
+              </span>
+<span class="flex items-center bg-gray-200 dark:bg-gray-800 text-slate-700 dark:text-slate-300 text-sm font-medium px-4 py-2 rounded-full shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary mr-2"></span>
+                React.js
+              </span>
+<span class="flex items-center bg-gray-200 dark:bg-gray-800 text-slate-700 dark:text-slate-300 text-sm font-medium px-4 py-2 rounded-full shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary mr-2"></span>
+                Node.js
+              </span>
+<span class="flex items-center bg-gray-200 dark:bg-gray-800 text-slate-700 dark:text-slate-300 text-sm font-medium px-4 py-2 rounded-full shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary mr-2"></span>
+                Next.js
+              </span>
+<span class="flex items-center bg-gray-200 dark:bg-gray-800 text-slate-700 dark:text-slate-300 text-sm font-medium px-4 py-2 rounded-full shadow-sm">
+<span class="w-2 h-2 rounded-full bg-primary mr-2"></span>
+                Tailwind CSS
+              </span>
+</div>
+</div>
+</div>
+</div>
+<button class="fixed bottom-6 right-6 bg-primary text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:bg-violet-700 transition-colors">
+<span class="material-icons">
+        arrow_upward
+      </span>
+</button>
+</div>
+
+</section>
+<section class="bg-background-light dark:bg-background-dark font-display">
+<div class="min-h-screen p-6">
+<header class="text-center mb-10">
+<h1 class="text-3xl font-bold text-gray-800 dark:text-gray-100">Education</h1>
+<div class="flex justify-center mt-2">
+<div class="w-16 h-1 bg-primary rounded-full"></div>
+<div class="w-16 h-1 bg-blue-500 rounded-full -ml-8"></div>
+</div>
+</header>
+<main>
+<div class="relative pl-8">
+<div class="absolute left-4 top-1 bottom-0 w-0.5 bg-primary/30"></div>
+<div class="mb-12 relative">
+<div class="absolute -left-1.5 top-1 w-5 h-5 bg-primary rounded-full border-4 border-background-light dark:border-background-dark"></div>
+<div class="space-y-2">
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-primary">school</span>
+<h2 class="text-lg font-bold text-gray-900 dark:text-white">Bachelor of Science in Computer Science</h2>
+</div>
+<p class="text-md text-gray-600 dark:text-gray-300">City University</p>
+<div class="flex items-center space-x-2 text-sm text-gray-500 dark:text-gray-400">
+<span class="material-symbols-outlined !text-base">calendar_today</span>
+<span>2022 - Present</span>
+</div>
+<p class="text-md text-gray-600 dark:text-gray-300">
+                            Currently pursuing a degree with a focus on Web Development and Database Management.
+                        </p>
+</div>
+</div>
+<div class="mb-12 relative">
+<div class="absolute -left-1.5 top-1 w-5 h-5 bg-primary rounded-full border-4 border-background-light dark:border-background-dark"></div>
+<div class="space-y-2">
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-primary">school</span>
+<h2 class="text-lg font-bold text-gray-900 dark:text-white">Full Stack Web Development</h2>
+</div>
+<p class="text-md text-gray-600 dark:text-gray-300">Programming Hero</p>
+<div class="flex items-center space-x-2 text-sm text-gray-500 dark:text-gray-400">
+<span class="material-symbols-outlined !text-base">calendar_today</span>
+<span>2024 - Present (1.5 years)</span>
+</div>
+<p class="text-md text-gray-600 dark:text-gray-300">
+                            Comprehensive training in MERN stack and modern web development practices.
+                        </p>
+</div>
+</div>
+<div class="relative">
+<div class="absolute -left-1.5 top-1 w-5 h-5 bg-primary rounded-full border-4 border-background-light dark:border-background-dark"></div>
+<div class="space-y-2">
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-primary">school</span>
+<h2 class="text-lg font-bold text-gray-900 dark:text-white">Intermediate (Science)</h2>
+</div>
+<p class="text-md text-gray-600 dark:text-gray-300">Hajigonj Model Govt College</p>
+<div class="flex items-center space-x-2 text-sm text-gray-500 dark:text-gray-400">
+<span class="material-symbols-outlined !text-base">calendar_today</span>
+<span>2019 - 2021</span>
+</div>
+<p class="text-md text-gray-600 dark:text-gray-300">
+                            Completed higher secondary education with a strong foundation in Physics, Chemistry, Biology, and Mathematics, laying the groundwork for advanced studies in technology.
+                        </p>
+</div>
+</div>
+</div>
+</main>
+</div>
+
+</section>
+<section class="bg-background-light dark:bg-background-dark font-display">
+<div class="min-h-screen p-6">
+<main class="max-w-md mx-auto">
+<div class="text-center mb-10">
+<h1 class="text-3xl font-bold text-slate-800 dark:text-white">Skills</h1>
+<div class="mt-2 h-1 w-16 mx-auto bg-gradient-to-r from-indigo-500 to-purple-500"></div>
+</div>
+<div class="space-y-12">
+<section>
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-indigo-400">code_blocks</span>
+<h2 class="text-xl font-semibold text-slate-700 dark:text-gray-200">Technical Skills</h2>
+</div>
+<div class="space-y-5">
+<div class="skill-item">
+<div class="flex justify-between items-center mb-1 text-slate-600 dark:text-gray-300">
+<span class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-indigo-400 text-base">code</span>JavaScript</span>
+<span class="text-sm font-medium">90%</span>
+</div>
+<div class="w-full bg-slate-200 dark:bg-gray-700/50 rounded-full h-2">
+<div class="bg-gradient-to-r from-indigo-500 to-blue-400 h-2 rounded-full" style="width: 90%"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between items-center mb-1 text-slate-600 dark:text-gray-300">
+<span class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-indigo-400 text-base">code</span>React.js</span>
+<span class="text-sm font-medium">85%</span>
+</div>
+<div class="w-full bg-slate-200 dark:bg-gray-700/50 rounded-full h-2">
+<div class="bg-gradient-to-r from-indigo-500 to-blue-400 h-2 rounded-full" style="width: 85%"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between items-center mb-1 text-slate-600 dark:text-gray-300">
+<span class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-indigo-400 text-base">dns</span>Node.js</span>
+<span class="text-sm font-medium">80%</span>
+</div>
+<div class="w-full bg-slate-200 dark:bg-gray-700/50 rounded-full h-2">
+<div class="bg-gradient-to-r from-indigo-500 to-blue-400 h-2 rounded-full" style="width: 80%"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between items-center mb-1 text-slate-600 dark:text-gray-300">
+<span class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-indigo-400 text-base">dns</span>Express.js</span>
+<span class="text-sm font-medium">85%</span>
+</div>
+<div class="w-full bg-slate-200 dark:bg-gray-700/50 rounded-full h-2">
+<div class="bg-gradient-to-r from-indigo-500 to-blue-400 h-2 rounded-full" style="width: 85%"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between items-center mb-1 text-slate-600 dark:text-gray-300">
+<span class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-indigo-400 text-base">database</span>MongoDB</span>
+<span class="text-sm font-medium">75%</span>
+</div>
+<div class="w-full bg-slate-200 dark:bg-gray-700/50 rounded-full h-2">
+<div class="bg-gradient-to-r from-indigo-500 to-blue-400 h-2 rounded-full" style="width: 75%"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between items-center mb-1 text-slate-600 dark:text-gray-300">
+<span class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-indigo-400 text-base">code</span>Next.js</span>
+<span class="text-sm font-medium">80%</span>
+</div>
+<div class="w-full bg-slate-200 dark:bg-gray-700/50 rounded-full h-2">
+<div class="bg-gradient-to-r from-indigo-500 to-blue-400 h-2 rounded-full" style="width: 80%"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between items-center mb-1 text-slate-600 dark:text-gray-300">
+<span class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-indigo-400 text-base">code</span>TypeScript</span>
+<span class="text-sm font-medium">70%</span>
+</div>
+<div class="w-full bg-slate-200 dark:bg-gray-700/50 rounded-full h-2">
+<div class="bg-gradient-to-r from-indigo-500 to-blue-400 h-2 rounded-full" style="width: 70%"></div>
+</div>
+</div>
+<div class="skill-item">
+<div class="flex justify-between items-center mb-1 text-slate-600 dark:text-gray-300">
+<span class="flex items-center gap-2 text-sm font-medium"><span class="material-symbols-outlined text-indigo-400 text-base">http</span>RESTful APIs</span>
+<span class="text-sm font-medium">85%</span>
+</div>
+<div class="w-full bg-slate-200 dark:bg-gray-700/50 rounded-full h-2">
+<div class="bg-gradient-to-r from-indigo-500 to-blue-400 h-2 rounded-full" style="width: 85%"></div>
+</div>
+</div>
+</div>
+</section>
+<section>
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-indigo-400">psychology</span>
+<h2 class="text-xl font-semibold text-slate-700 dark:text-gray-200">Soft Skills</h2>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-slate-100 dark:bg-gray-800/60 p-4 rounded-lg text-center shadow-sm">
+<span class="text-sm font-medium text-slate-700 dark:text-gray-300">Problem Solving</span>
+</div>
+<div class="bg-slate-100 dark:bg-gray-800/60 p-4 rounded-lg text-center shadow-sm">
+<span class="text-sm font-medium text-slate-700 dark:text-gray-300">Communication</span>
+</div>
+<div class="bg-slate-100 dark:bg-gray-800/60 p-4 rounded-lg text-center shadow-sm">
+<span class="text-sm font-medium text-slate-700 dark:text-gray-300">Team Collaboration</span>
+</div>
+<div class="bg-slate-100 dark:bg-gray-800/60 p-4 rounded-lg text-center shadow-sm">
+<span class="text-sm font-medium text-slate-700 dark:text-gray-300">Time Management</span>
+</div>
+<div class="bg-slate-100 dark:bg-gray-800/60 p-4 rounded-lg text-center shadow-sm">
+<span class="text-sm font-medium text-slate-700 dark:text-gray-300">Adaptability</span>
+</div>
+<div class="bg-slate-100 dark:bg-gray-800/60 p-4 rounded-lg text-center shadow-sm">
+<span class="text-sm font-medium text-slate-700 dark:text-gray-300">Attention to Detail</span>
+</div>
+</div>
+</section>
+<section>
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-indigo-400">terminal</span>
+<h2 class="text-xl font-semibold text-slate-700 dark:text-gray-200">Tools &amp; Environments</h2>
+</div>
+<div class="flex flex-wrap gap-3">
+<span class="bg-slate-200 dark:bg-gray-700 text-slate-600 dark:text-gray-300 text-sm font-medium px-4 py-2 rounded-full">VS Code</span>
+<span class="bg-slate-200 dark:bg-gray-700 text-slate-600 dark:text-gray-300 text-sm font-medium px-4 py-2 rounded-full">Git</span>
+<span class="bg-slate-200 dark:bg-gray-700 text-slate-600 dark:text-gray-300 text-sm font-medium px-4 py-2 rounded-full">GitHub</span>
+<span class="bg-slate-200 dark:bg-gray-700 text-slate-600 dark:text-gray-300 text-sm font-medium px-4 py-2 rounded-full">Vercel</span>
+<span class="bg-slate-200 dark:bg-gray-700 text-slate-600 dark:text-gray-300 text-sm font-medium px-4 py-2 rounded-full">Postman</span>
+<span class="bg-slate-200 dark:bg-gray-700 text-slate-600 dark:text-gray-300 text-sm font-medium px-4 py-2 rounded-full">Figma</span>
+<span class="bg-slate-200 dark:bg-gray-700 text-slate-600 dark:text-gray-300 text-sm font-medium px-4 py-2 rounded-full">npm</span>
+</div>
+</section>
+</div>
+</main>
+</div>
+
+</section>
+<section class="bg-background-light dark:bg-background-dark font-display">
+<div class="min-h-screen p-4 sm:p-6">
+<header class="mb-8">
+<h1 class="text-3xl font-bold text-slate-800 dark:text-white">Projects</h1>
+<p class="text-slate-500 dark:text-slate-400 mt-1">A showcase of my key MERN stack projects.</p>
+</header>
+<main class="space-y-6">
+<div class="bg-white/50 dark:bg-slate-800/50 p-5 rounded-lg border border-slate-200 dark:border-slate-700 backdrop-blur-sm">
+<h2 class="text-xl font-bold text-slate-800 dark:text-white mb-2">E-commerce Platform</h2>
+<p class="text-slate-600 dark:text-slate-300 mb-4 text-sm leading-relaxed">
+          A full-featured online store built with the MERN stack, including product management, user authentication, and a payment gateway integration.
+        </p>
+<div class="mb-4">
+<h3 class="text-xs font-semibold uppercase text-slate-400 dark:text-slate-500 mb-2">Technologies Used</h3>
+<div class="flex flex-wrap gap-2">
+<span class="bg-blue-100 dark:bg-blue-900/50 text-blue-800 dark:text-blue-300 text-xs font-medium px-2.5 py-1 rounded-full">React</span>
+<span class="bg-green-100 dark:bg-green-900/50 text-green-800 dark:text-green-300 text-xs font-medium px-2.5 py-1 rounded-full">Node.js</span>
+<span class="bg-purple-100 dark:bg-purple-900/50 text-purple-800 dark:text-purple-300 text-xs font-medium px-2.5 py-1 rounded-full">Express</span>
+<span class="bg-yellow-100 dark:bg-yellow-900/50 text-yellow-800 dark:text-yellow-300 text-xs font-medium px-2.5 py-1 rounded-full">MongoDB</span>
+<span class="bg-red-100 dark:bg-red-900/50 text-red-800 dark:text-red-300 text-xs font-medium px-2.5 py-1 rounded-full">Redux</span>
+</div>
+</div>
+<div class="flex space-x-4 mt-5">
+<a class="flex-1 text-center bg-primary text-white font-semibold py-2.5 px-4 rounded-md text-sm transition-opacity hover:opacity-90 flex items-center justify-center gap-2" href="#">
+<span class="material-symbols-outlined">visibility</span>
+            Live Demo
+          </a>
+<a class="flex-1 text-center bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-white font-semibold py-2.5 px-4 rounded-md text-sm transition-colors hover:bg-slate-300 dark:hover:bg-slate-600 flex items-center justify-center gap-2" href="#">
+<span class="material-symbols-outlined">code</span>
+            GitHub
+          </a>
+</div>
+</div>
+<div class="bg-white/50 dark:bg-slate-800/50 p-5 rounded-lg border border-slate-200 dark:border-slate-700 backdrop-blur-sm">
+<h2 class="text-xl font-bold text-slate-800 dark:text-white mb-2">Task Management App</h2>
+<p class="text-slate-600 dark:text-slate-300 mb-4 text-sm leading-relaxed">
+          A real-time, collaborative task manager with drag-and-drop functionality, user accounts, and WebSocket-powered updates for a seamless team experience.
+        </p>
+<div class="mb-4">
+<h3 class="text-xs font-semibold uppercase text-slate-400 dark:text-slate-500 mb-2">Technologies Used</h3>
+<div class="flex flex-wrap gap-2">
+<span class="bg-blue-100 dark:bg-blue-900/50 text-blue-800 dark:text-blue-300 text-xs font-medium px-2.5 py-1 rounded-full">React</span>
+<span class="bg-green-100 dark:bg-green-900/50 text-green-800 dark:text-green-300 text-xs font-medium px-2.5 py-1 rounded-full">Node.js</span>
+<span class="bg-gray-100 dark:bg-gray-900/50 text-gray-800 dark:text-gray-300 text-xs font-medium px-2.5 py-1 rounded-full">Socket.io</span>
+<span class="bg-yellow-100 dark:bg-yellow-900/50 text-yellow-800 dark:text-yellow-300 text-xs font-medium px-2.5 py-1 rounded-full">MongoDB</span>
+</div>
+</div>
+<div class="flex space-x-4 mt-5">
+<a class="flex-1 text-center bg-primary text-white font-semibold py-2.5 px-4 rounded-md text-sm transition-opacity hover:opacity-90 flex items-center justify-center gap-2" href="#">
+<span class="material-symbols-outlined">visibility</span>
+            Live Demo
+          </a>
+<a class="flex-1 text-center bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-white font-semibold py-2.5 px-4 rounded-md text-sm transition-colors hover:bg-slate-300 dark:hover:bg-slate-600 flex items-center justify-center gap-2" href="#">
+<span class="material-symbols-outlined">code</span>
+            GitHub
+          </a>
+</div>
+</div>
+<div class="bg-white/50 dark:bg-slate-800/50 p-5 rounded-lg border border-slate-200 dark:border-slate-700 backdrop-blur-sm">
+<h2 class="text-xl font-bold text-slate-800 dark:text-white mb-2">Personal Blog API</h2>
+<p class="text-slate-600 dark:text-slate-300 mb-4 text-sm leading-relaxed">
+          A headless CMS-style RESTful API for a personal blog, featuring JWT authentication for protected routes, post management, and commenting functionality.
+        </p>
+<div class="mb-4">
+<h3 class="text-xs font-semibold uppercase text-slate-400 dark:text-slate-500 mb-2">Technologies Used</h3>
+<div class="flex flex-wrap gap-2">
+<span class="bg-green-100 dark:bg-green-900/50 text-green-800 dark:text-green-300 text-xs font-medium px-2.5 py-1 rounded-full">Node.js</span>
+<span class="bg-purple-100 dark:bg-purple-900/50 text-purple-800 dark:text-purple-300 text-xs font-medium px-2.5 py-1 rounded-full">Express</span>
+<span class="bg-yellow-100 dark:bg-yellow-900/50 text-yellow-800 dark:text-yellow-300 text-xs font-medium px-2.5 py-1 rounded-full">MongoDB</span>
+<span class="bg-pink-100 dark:bg-pink-900/50 text-pink-800 dark:text-pink-300 text-xs font-medium px-2.5 py-1 rounded-full">JWT</span>
+</div>
+</div>
+<div class="flex space-x-4 mt-5">
+<a class="flex-1 text-center bg-slate-200 dark:bg-slate-700 text-slate-800 dark:text-white font-semibold py-2.5 px-4 rounded-md text-sm transition-colors hover:bg-slate-300 dark:hover:bg-slate-600 flex items-center justify-center gap-2" href="#">
+<span class="material-symbols-outlined">code</span>
+            GitHub
+          </a>
+</div>
+</div>
+</main>
+</div>
+
+</section>
+<section class="font-display bg-background-light dark:bg-background-dark">
+<div class="min-h-screen p-4 sm:p-6">
+<header class="mb-8">
+<h1 class="text-3xl font-bold text-slate-800 dark:text-white">Articles</h1>
+<p class="text-slate-500 dark:text-slate-400 mt-1">My thoughts on tech, development, and more.</p>
+</header>
+<div class="space-y-6">
+<div class="bg-slate-100/50 dark:bg-slate-900/50 backdrop-blur-sm border border-slate-200 dark:border-slate-800 rounded-lg overflow-hidden flex flex-col">
+<img alt="An illustration of a team collaborating on a whiteboard with a lightbulb, representing ideas for a new web project." class="w-full h-48 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMi7tlfQqb56FDd1fmJrnkhzHXuDIB4FaniG4C6csZI4f-ZRQ8JLjurb4CrxXHpZpMZNrLH5ZPqXueHTB05udD7RNVg0RyyarNucRZ5Tp0JhNGQamcEpKuMiFWlRnBtv3dhThBeCivpvPtMGbSE94mGjeXGwh6LGpX_ggIVTLAzMtcDIv_DYwGWLQWjzo2fQJUIcHFbLtL2qEyAT39GZdxdDz28desaXp_PQJuqG_l57Kk7-s9Y8KMFwydLm4HQHuu_j80ai8TIRBJ"/>
+<div class="p-5 flex flex-col flex-grow">
+<div class="flex items-center text-xs text-slate-500 dark:text-slate-400 mb-3">
+<span class="material-icons-outlined text-sm mr-1.5 text-indigo-400">calendar_today</span>
+<span>June 3, 2025</span>
+<span class="mx-2">·</span>
+<span class="material-icons-outlined text-sm mr-1.5 text-indigo-400">schedule</span>
+<span>10 min read</span>
+</div>
+<h2 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Why Choose the MERN Stack for Your Next Web Project?</h2>
+<p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-4 flex-grow">
+                        The MERN stack is a popular web development framework that combines four powerful technologies: MongoDB, Express.js, React, and...
+                    </p>
+<div class="flex flex-wrap gap-2 mb-5">
+<span class="text-xs font-medium bg-primary/10 dark:bg-primary/20 text-primary dark:text-indigo-300 py-1 px-3 rounded-full">MERN Stack</span>
+<span class="text-xs font-medium bg-primary/10 dark:bg-primary/20 text-primary dark:text-indigo-300 py-1 px-3 rounded-full">Web Development</span>
+<span class="text-xs font-medium bg-primary/10 dark:bg-primary/20 text-primary dark:text-indigo-300 py-1 px-3 rounded-full">JavaScript</span>
+</div>
+<button class="w-full text-center py-3 text-sm font-semibold rounded-lg bg-white/10 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white hover:bg-white/20 dark:hover:bg-slate-700 transition-colors">
+                        Read Article
+                    </button>
+</div>
+</div>
+<div class="bg-slate-100/50 dark:bg-slate-900/50 backdrop-blur-sm border border-slate-200 dark:border-slate-800 rounded-lg overflow-hidden flex flex-col">
+<img alt="A futuristic holographic interface showing the TypeScript logo and code snippets, symbolizing modern web applications." class="w-full h-48 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQeTBScLgMMKHrPYhv8UtuFuGRAAuJAXqrrX9gN-vCDhpCmooKucrZbNOwRzdopTF0ZbkwbZD40ihnmsC1b6qiTsJUR0msnRGpGIlx4FwTuFGgNrPrNjdzVsVTxRGTankr4HtMTq5OcbgFecnm9f1zaYHpJZFmezL6u6ZStdT1Fu7RAsFYB2r8-4zs2cqM_ybWF68m_Wya7GlN5GBysWRB44fsDJ5nYApamHnruet1jodLybyLdEyC4BAehJNyVB2suscQDK6RWifn"/>
+<div class="p-5 flex flex-col flex-grow">
+<div class="flex items-center text-xs text-slate-500 dark:text-slate-400 mb-3">
+<span class="material-icons-outlined text-sm mr-1.5 text-indigo-400">calendar_today</span>
+<span>May 15, 2025</span>
+<span class="mx-2">·</span>
+<span class="material-icons-outlined text-sm mr-1.5 text-indigo-400">schedule</span>
+<span>8 min read</span>
+</div>
+<h2 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Building Modern Web Apps: TypeScript and Next.js Together</h2>
+<p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-4 flex-grow">
+                        In the ever-evolving landscape of web development, the tools and frameworks we choose can significantly impact our productivity...
+                    </p>
+<div class="flex flex-wrap gap-2 mb-5">
+<span class="text-xs font-medium bg-primary/10 dark:bg-primary/20 text-primary dark:text-indigo-300 py-1 px-3 rounded-full">TypeScript</span>
+<span class="text-xs font-medium bg-primary/10 dark:bg-primary/20 text-primary dark:text-indigo-300 py-1 px-3 rounded-full">Next.js</span>
+<span class="text-xs font-medium bg-primary/10 dark:bg-primary/20 text-primary dark:text-indigo-300 py-1 px-3 rounded-full">MERN Stack</span>
+</div>
+<button class="w-full text-center py-3 text-sm font-semibold rounded-lg bg-white/10 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white hover:bg-white/20 dark:hover:bg-slate-700 transition-colors">
+                        Read Article
+                    </button>
+</div>
+</div>
+<div class="bg-slate-100/50 dark:bg-slate-900/50 backdrop-blur-sm border border-slate-200 dark:border-slate-800 rounded-lg overflow-hidden flex flex-col">
+<img alt="A 3D rendering of a database stack with a green snake-like 'M' logo on top, representing MongoDB and Mongoose.js." class="w-full h-48 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbhSa7saA6QC06sTM5SnX7q6Hf22juIoCSe0C9uH3bYpgjI3PFVQZOyYq_rCGSRjIc9G862dmx_JkUJonwhWqJ-rbQ0Mq3n9Ehv5Md9j7pMmnH4PyziTv3SEQ7TLCrEpTThqFOekQd1LaGWpY87SCfytFY2LDLFxs3XhVyAJ1teh_q8ECrtPVi2Eda2loS2BDO_hJL4h9X12P3uz-neP5D3pE4TxIZTMQkUH6JwjANeMapzkf9TqtkznVjAMO8qvk2e8yj7aZ60U6w"/>
+<div class="p-5 flex flex-col flex-grow">
+<div class="flex items-center text-xs text-slate-500 dark:text-slate-400 mb-3">
+<span class="material-icons-outlined text-sm mr-1.5 text-indigo-400">calendar_today</span>
+<span>June 1, 2025</span>
+<span class="mx-2">·</span>
+<span class="material-icons-outlined text-sm mr-1.5 text-indigo-400">schedule</span>
+<span>12 min read</span>
+</div>
+<h2 class="text-xl font-bold text-slate-900 dark:text-white mb-2">Getting Started with Mongoose.js: A Beginner's Guide</h2>
+<p class="text-slate-600 dark:text-slate-300 text-sm leading-relaxed mb-4 flex-grow">
+                        Mongoose.js is an Object Data Modeling (ODM) library for MongoDB and Node.js. It provides a straightforward way to interact with MongoDB...
+                    </p>
+<div class="flex flex-wrap gap-2 mb-5">
+<span class="text-xs font-medium bg-primary/10 dark:bg-primary/20 text-primary dark:text-indigo-300 py-1 px-3 rounded-full">MongooseJS</span>
+<span class="text-xs font-medium bg-primary/10 dark:bg-primary/20 text-primary dark:text-indigo-300 py-1 px-3 rounded-full">MongoDB</span>
+<span class="text-xs font-medium bg-primary/10 dark:bg-primary/20 text-primary dark:text-indigo-300 py-1 px-3 rounded-full">NodeJS</span>
+<span class="text-xs font-medium bg-primary/10 dark:bg-primary/20 text-primary dark:text-indigo-300 py-1 px-3 rounded-full">NoSQL</span>
+</div>
+<button class="w-full text-center py-3 text-sm font-semibold rounded-lg bg-white/10 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-800 dark:text-white hover:bg-white/20 dark:hover:bg-slate-700 transition-colors">
+                        Read Article
+                    </button>
+</div>
+</div>
+</div>
+</div>
+
+</section>
+<section class="font-display bg-background-light dark:bg-background-dark min-h-screen">
+<div class="p-6 sm:p-8">
+<div class="text-center mb-12">
+<h1 class="text-3xl sm:text-4xl font-bold text-slate-800 dark:text-white mb-3">Get In Touch</h1>
+<div class="relative inline-block">
+<div class="absolute bottom-[-4px] left-0 w-full h-1 bg-gradient-to-r from-primary to-cyan-400 rounded-full"></div>
+</div>
+<p class="mt-6 max-w-md mx-auto text-slate-600 dark:text-slate-400">Have a project in mind or want to collaborate? Feel free to reach out to me through any of the channels below.</p>
+</div>
+<div class="space-y-12">
+<div>
+<h2 class="text-xl font-bold text-slate-800 dark:text-white mb-6">Contact Information</h2>
+<div class="space-y-5">
+<div class="flex items-center space-x-4">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center">
+<span class="icon text-primary text-2xl">email</span>
+</div>
+<div>
+<h3 class="font-semibold text-slate-700 dark:text-slate-300">Email</h3>
+<p class="text-slate-600 dark:text-slate-400">raselahmed73614@gmail.com</p>
+</div>
+</div>
+<div class="flex items-center space-x-4">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center">
+<span class="icon text-primary text-2xl">phone</span>
+</div>
+<div>
+<h3 class="font-semibold text-slate-700 dark:text-slate-300">Phone</h3>
+<p class="text-slate-600 dark:text-slate-400">+8801624490189</p>
+</div>
+</div>
+<div class="flex items-center space-x-4">
+<div class="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center">
+<span class="icon text-primary text-2xl">location_on</span>
+</div>
+<div>
+<h3 class="font-semibold text-slate-700 dark:text-slate-300">Location</h3>
+<p class="text-slate-600 dark:text-slate-400">Savar, Dhaka-1340, Bangladesh</p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<h2 class="text-xl font-bold text-slate-800 dark:text-white mb-6">Connect With Me</h2>
+<div class="flex items-center space-x-4">
+<a class="w-12 h-12 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center text-primary hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+<span class="sr-only">LinkedIn</span>
+</a>
+<a class="w-12 h-12 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center text-primary hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors" href="#">
+<svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v2.385z"></path></svg>
+<span class="sr-only">Facebook</span>
+</a>
+<a class="w-12 h-12 rounded-full bg-primary/10 dark:bg-primary/20 flex items-center justify-center text-primary hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors" href="#">
+<span class="icon text-2xl">public</span>
+<span class="sr-only">Website</span>
+</a>
+</div>
+</div>
+<div>
+<h2 class="text-xl font-bold text-slate-800 dark:text-white mb-6">Send Me a Message</h2>
+<form action="#" class="space-y-4" method="POST">
+<div>
+<label class="sr-only" for="name">Your Name</label>
+<input class="w-full bg-slate-200 dark:bg-slate-800 border-slate-300 dark:border-slate-700 rounded-md placeholder:text-slate-500 dark:placeholder:text-slate-400 focus:ring-primary focus:border-primary text-slate-900 dark:text-white" id="name" name="name" placeholder="Your Name" type="text"/>
+</div>
+<div>
+<label class="sr-only" for="email">Your Email</label>
+<input class="w-full bg-slate-200 dark:bg-slate-800 border-slate-300 dark:border-slate-700 rounded-md placeholder:text-slate-500 dark:placeholder:text-slate-400 focus:ring-primary focus:border-primary text-slate-900 dark:text-white" id="email" name="email" placeholder="Your Email" type="email"/>
+</div>
+<div>
+<label class="sr-only" for="subject">Subject</label>
+<input class="w-full bg-slate-200 dark:bg-slate-800 border-slate-300 dark:border-slate-700 rounded-md placeholder:text-slate-500 dark:placeholder:text-slate-400 focus:ring-primary focus:border-primary text-slate-900 dark:text-white" id="subject" name="subject" placeholder="Subject" type="text"/>
+</div>
+<div>
+<label class="sr-only" for="message">Your Message</label>
+<textarea class="w-full bg-slate-200 dark:bg-slate-800 border-slate-300 dark:border-slate-700 rounded-md placeholder:text-slate-500 dark:placeholder:text-slate-400 focus:ring-primary focus:border-primary text-slate-900 dark:text-white" id="message" name="message" placeholder="Your Message" rows="5"></textarea>
+</div>
+<button class="w-full bg-primary text-white font-semibold py-3 px-4 rounded-md flex items-center justify-center space-x-2 hover:bg-opacity-90 transition-colors" type="submit">
+<span class="icon text-lg">send</span>
+<span>Send Message</span>
+</button>
+</form>
+</div>
+</div>
+</div>
+
+</section>
+<section class="font-display bg-background-light dark:bg-background-dark">
+<div class="p-8">
+<footer class="text-gray-600 dark:text-gray-400">
+<div class="container mx-auto space-y-12">
+<div class="space-y-4">
+<h2 class="text-2xl font-bold">
+<span class="text-gradient">Rasel Ahmed</span>
+</h2>
+<p class="text-base leading-relaxed">
+                        A passionate MERN Stack Developer focused on creating intuitive and efficient web applications that solve real-world problems.
+                    </p>
+<div class="flex items-center space-x-5 text-xl">
+<a aria-label="GitHub" class="hover:text-primary transition-colors" href="#"><i class="fab fa-github"></i></a>
+<a aria-label="LinkedIn" class="hover:text-primary transition-colors" href="#"><i class="fab fa-linkedin-in"></i></a>
+<a aria-label="Facebook" class="hover:text-primary transition-colors" href="#"><i class="fab fa-facebook-f"></i></a>
+<a aria-label="Email" class="hover:text-primary transition-colors" href="#"><i class="fas fa-envelope"></i></a>
+</div>
+</div>
+<div class="space-y-4">
+<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Quick Links</h3>
+<nav class="flex flex-col space-y-3">
+<a class="hover:text-primary transition-colors" href="#">Home</a>
+<a class="hover:text-primary transition-colors" href="#">About</a>
+<a class="hover:text-primary transition-colors" href="#">Skills</a>
+<a class="hover:text-primary transition-colors" href="#">Projects</a>
+<a class="hover:text-primary transition-colors" href="#">Blog</a>
+<a class="hover:text-primary transition-colors" href="#">Contact</a>
+</nav>
+</div>
+<div class="space-y-4">
+<h3 class="text-lg font-semibold text-gray-900 dark:text-white">Contact Info</h3>
+<div class="flex flex-col space-y-3">
+<p>Savar, Dhaka-1340, Bangladesh</p>
+<a class="hover:text-primary transition-colors" href="mailto:raselahmed73614@gmail.com">raselahmed73614@gmail.com</a>
+<a class="hover:text-primary transition-colors" href="tel:+8801624490189">+8801624490189</a>
+</div>
+</div>
+</div>
+<div class="border-t border-gray-200 dark:border-gray-700 mt-12 pt-8 text-sm">
+<div class="container mx-auto flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0 text-center">
+<p>© 2025 Rasel Ahmed. All rights reserved.</p>
+<div class="flex space-x-4">
+<a class="hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-primary transition-colors" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+
+</section>
+
+</body></html>
